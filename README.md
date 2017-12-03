@@ -1,7 +1,7 @@
 # Ascent
 Student Analytics Project
 
-Access the here.
+Access the web application here.
 https://ascents.herokuapp.com/
 
 Login Information
@@ -33,7 +33,9 @@ Contributors
 * Rubric Print Function
 * Various Page Buttons and their scripts
 * Individual Filters
-* Various Front-End Pages
+* Various Front-End Pages with Bootstrap
+* Breadcrumb Functionality
+* Menu Bar Functionality 
 <hr>
 
 #### [Muhammad Hassan's Github](https://github.com/hassan3095)
@@ -41,4 +43,4 @@ Contributors
 * Login-Page
 <hr>
 
-Special thanks to https://github.com/timmyichen for advising us on MongoDB and NodeJS
+Special thanks to Timmy Chen (https://github.com/timmyichen) for advising us on MongoDB and NodeJS
