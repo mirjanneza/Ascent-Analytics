@@ -33,6 +33,7 @@ Contributors
 * Rubric Print Function
 * Various Page Buttons and their scripts
 * Individual Filters
+* Various Front-End Pages
 <hr>
 
 #### [Muhammad Hassan's Github](https://github.com/hassan3095)
