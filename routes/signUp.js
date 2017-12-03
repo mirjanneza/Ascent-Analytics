@@ -30,7 +30,8 @@ router.post('/', function(req, res) {
             res.send('The key you submitted is wrong');
             return;
         } else {
-            var newAccount = {email: req.body.email, password: req.body.password, schoolName: req.body.schoolName, permissionLevel: result[0].key};
+            console.log(result)
+            var newAccount = {email: req.body.email, password: req.body.password, schoolName: req.body.schoolName, permissionLevel: result[0].level};
             createAccount(res, newAccount);
             keysDB.deleteMany({key:result[0].key}, function(err) {
                 if (err) {

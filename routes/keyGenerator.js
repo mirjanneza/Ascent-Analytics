@@ -5,7 +5,7 @@ const MongoClient = mongodb.MongoClient;
 const keys = require('../config/config.js').keys;
 const url = keys.mongoURI;
 const requireWebmaster = require('../middlewares/requireWebmaster');
-
+//Requires webmaster to access
 var db;
 MongoClient.connect(url, function(err, database) {
     if (err) {

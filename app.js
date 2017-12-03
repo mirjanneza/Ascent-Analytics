@@ -19,10 +19,13 @@ var assignmentStats = require('./routes/assignmentStats');
 var faculty = require('./routes/faculty');
 var keyGenerator = require('./routes/keyGenerator');
 
+const requireLogin = require('./middlewares/requireLogin');
+
 const MongoClient = require('mongodb').MongoClient;
 const keys = require('./config/config.js').keys;
 const url = keys.mongoURI;
 const port = require('./config/config.js').PORT;
+
 
 const authRoutes = require('./auth/authRoutes');
 
@@ -71,16 +74,16 @@ const rubricRoutes = require('./api/rubricRoutes');
 rubricRoutes(app);
 
 app.use('/', index);
-app.use('/studentList', studentList);
+app.use('/studentList', requireLogin, studentList);
 app.use('/signUp', signUp);
 app.use('/login', login);
 app.use('/PageNotFound404', PageNotFound404);
-app.use('/classes', classes);
-app.use('/rubrics', rubrics);
-app.use('/statistics', statistics);
-app.use('/classStats', classStats);
-app.use('/assignmentStats', assignmentStats);
-app.use('/faculty', faculty);
+app.use('/classes', requireLogin, classes);
+app.use('/rubrics', requireLogin, rubrics);
+app.use('/statistics', requireLogin, statistics);
+app.use('/classStats', requireLogin, classStats);
+app.use('/assignmentStats', requireLogin, assignmentStats);
+app.use('/faculty', requireLogin, faculty);
 app.use('/keyGenerator', keyGenerator);
 
 // catch 404 and forward to error handler

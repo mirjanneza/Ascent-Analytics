@@ -115,9 +115,6 @@ article img{
     float: right;
 }
 
-.btn-fancy {
-    
+#footer {
+    display: none;
 }
-
-
-

@@ -6,7 +6,7 @@ module.exports = app => {
     }));
     
     app.get('/auth/google/callback', passport.authenticate('google'), (req, res) => {
-        res.redirect('https://ascent-db-alt-althe.c9users.io');
+        res.redirect('https://ascents.herokuapp.com/');
     });
     
     app.get('/api/current-user', (req, res) => {
