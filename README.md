@@ -1,5 +1,5 @@
 # Ascent
-Student Analytics Project
+Student Analytics Web Application
 
 Access the web application here.
 https://ascents.herokuapp.com/
