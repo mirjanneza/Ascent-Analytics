@@ -39,7 +39,7 @@ html
         -rubrics = "/rubrics"
         -classes = '/classes'
         -rubricView = '/rubricView'
-        -statistics = '/statistics'
+        -feedback = 'https://goo.gl/forms/qqC6DyleMoKLkIgj2'
         div.relative(align='left')
             a#menu-toggle.btn.btn-dark.btn-lg.toggle
                 i.fa.navToggle.fa-times
@@ -84,6 +84,11 @@ html
                                         i.fa.fa-bar-chart.classFA(aria-hidden='true', style="float:right")
                                     a(href='/assignmentStats') Task Stats
                                         i.fa.fa-line-chart(aria-hidden='true', style = "float:right")
+                        li.navBarItem
+                            .dropdown
+                                button.dropbtn
+                                    a.bttn-bordered.bttn-sm.bttn-default(href='#{feedback}') Feedback 
+                                        i.fa.fa-area-chart(aria-hidden='true')
         #footer
     script.
         var isClicked = true;

@@ -531,35 +531,5 @@ function drawStudentChart(){
             }
         }
     };
-    
-    // for (var count = 0; count < studentList.length; count++) {
-    //     if (tempStudentObject === topicId) {
-    //         var studentScore = studentList[count].scoring;
-    //         console.log("THIS IS THE STUDENT SCORE ",studentScore);
-    //         //go through scoring and check the score for specified topic
-    //         for(var temp = 0; temp<studentScore.length; count++){
-    //             var topicName = studentScore[temp].topic;
-    //             console.log("THIS IS THE TOPIC NAME",topicName);
-    //             var topicScore = studentScore[temp].score;
-    //             console.log(topicScore);
-    //             if(topicName == topicId){
-    //                 var studentObject = {};
-    //                 studentObject.id = studentId;
-    //                 studentObject.score = topicScore;
-    //                 score.push(studentObject);
-    //                 console.log('TRIGGERED');
-    //             }
-    //         }
-    //     }
-    // }
-    
-//     var displayScore = [];
-//     console.log("THE SCORE VARIABLE IS",score);
 
-    
-//     console.log("THE DISPLAY SCORE IS", displayScore);
-//      topicAvgChart.data.datasets[1].data = score;
-//       topicAvgCharttopicAvgChart 
-//       topitopicAvgChart
-
-}
+};
