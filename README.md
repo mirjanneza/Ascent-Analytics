@@ -30,12 +30,13 @@ Contributors
 #### [Mirjan Neza's Github](https://github.com/mirjanneza/ascent)
 * Search Functionality 
 * Front-End General Statistics
-* Rubric Print Function
-* Various Page Buttons and their scripts
+* Rubric Print Functionality
+* Various Page Buttons and related scripts
+* Various Front-End Pages with Bootstrap and CSS
 * Individual Filters
-* Various Front-End Pages with Bootstrap
 * Breadcrumb Functionality
 * Menu Bar Functionality 
+* Student Progress Charts
 <hr>
 
 #### [Muhammad Hassan's Github](https://github.com/hassan3095)
